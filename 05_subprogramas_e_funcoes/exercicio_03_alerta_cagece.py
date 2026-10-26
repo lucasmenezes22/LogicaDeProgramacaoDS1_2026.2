@@ -9,3 +9,10 @@ que imprima a mensagem:
 """
 
 # TODO: Desenvolva o procedimento abaixo:
+from operator import truediv
+
+
+def emitir_alerta_fatura(nome_do_cliente, valor, data_de_vencimento):
+    print(f"Presado(a) {nome_do_cliente}, sua fatura da cagece no valo de R$ {valor} vence no dia {data_de_vencimento}.")
+    return True
+alerta_fatura = emitir_alerta_fatura ("arthur pixica", 350, "25/10")

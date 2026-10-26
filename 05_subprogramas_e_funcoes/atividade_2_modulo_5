@@ -1,0 +1,7 @@
+# TODO: Crie a função lambda aqui
+calcular_acrescimo = None # Substitua pela expressão lambda
+
+# Teste
+calcular_acrescimo = lambda valor, percentual: valor + (valor * percentual)
+resultado  = calcular_acrescimo (100, 0.15)
+print(resultado)

@@ -12,11 +12,11 @@ SUA MISSÃO:
 1. Identifique e corrija os erros de tipagem (casting) e precedência.
 2. Faça o programa calcular e exibir a média correta formatada com 1 casa decimal.
 """
+# TODO: Escreva aqui o código corrigido
 
-# CÓDIGO ORIGINAL COM BUG (Analise e corrija):
-# nota1 = input("Digite a primeira nota: ")
-# nota2 = input("Digite a segunda nota: ")
-# media = nota1 + nota2 / 2
-# print("A média do aluno é:", media)
+nota1 = float(input("digite a nota 1: "))
+nota2 = float(input("digite a nota 2: "))
+media = (nota1 + nota2) / 2
+print(f"a nota do aluno é de: {media:.2f}")
 
-# TODO: Escreva aqui o código corrigido:
+

@@ -10,3 +10,7 @@ Crie um programa que:
 """
 
 # TODO: Desenvolva o algoritmo abaixo:
+valor_total_consumido = float(input("valor total consumido: "))
+taxa_do_gacom = valor_total_consumido * 0.10
+valor_final_da_conta = valor_total_consumido + taxa_do_gacom
+print(f"o valor da conta é: {valor_final_da_conta:.2f}")

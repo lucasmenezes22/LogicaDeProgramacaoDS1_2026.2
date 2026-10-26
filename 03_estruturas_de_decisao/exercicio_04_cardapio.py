@@ -15,3 +15,14 @@ Calcule e mostre o total a pagar.
 """
 
 # TODO: Desenvolva o algoritmo abaixo:
+codigo = int(input("digite o codigo do item"))
+quantidade = int(input("digite a quantidade"))
+
+if codigo == 1:
+    preco = 4.00
+elif codigo == 2:
+    preco = 4.50
+elif codigo == 3:
+    preco = 5.00
+elif codigo == 2:
+    preco = 2.00

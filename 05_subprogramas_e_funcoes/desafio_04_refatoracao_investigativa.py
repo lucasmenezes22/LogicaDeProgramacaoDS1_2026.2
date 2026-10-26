@@ -12,3 +12,7 @@ SUA MISSÃO:
 """
 
 # TODO: Desenvolva as funções modulares abaixo:
+def calcular_preco_final(preco_base, taxa_desc, taxa_imp):
+    return 
+"exibir_relatorio"
+print("numero_item, preco_final")

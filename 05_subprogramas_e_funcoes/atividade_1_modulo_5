@@ -1,0 +1,8 @@
+
+
+# Teste com notas de exemplo
+def calcular_media(nota1, nota2, nota3,):
+    calcular_media = (nota1 + nota2 + nota3) / 3
+    return calcular_media 
+total = calcular_media (5, 9, 10,)
+print(f"media {total}")

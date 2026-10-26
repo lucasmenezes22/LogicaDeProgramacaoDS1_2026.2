@@ -9,3 +9,11 @@ Calcule e exiba a média final ponderada utilizando apenas operadores aritmétic
 """
 
 # TODO: Desenvolva o algoritmo abaixo:
+nota1 = float(input("digite nota 1"))
+nota2 = float(input("digite nota 2"))
+nota3 = float(input("digite nota 3"))
+peso1 = 2
+peso2 = 3
+peso3 = 5
+media_final = (nota1 * peso1 + nota2 * peso2 + nota3 * peso3) / 10 
+print(f"a media final e: {media_final}")

@@ -9,3 +9,13 @@ foram digitados. Ao final, imprima a quantidade total.
 """
 
 # TODO: Desenvolva o algoritmo abaixo:
+contador_pares = 0
+
+for i in range(6, 1):
+    numero = int(input(f"digite o {i} numero inteiro: "))
+if numero == 0:
+    contador_pares += 1
+    print(f"\nVoce digitou{contador_pares} numero (s) pares (es). ")
+
+
+

@@ -13,3 +13,16 @@ Imprima "Isento" ou o valor total do imposto formatado com 2 casas decimais.
 """
 
 # TODO: Desenvolva o algoritmo abaixo:
+# print("salario mais aumento")
+salario = float(input("qual seu salario?"))
+if (salario) <= 2000.00:
+    print("isento")
+elif salario <= 3000.00:
+    resultado = (2000.00 / 100) * 8
+    print (f"tem que ser pago:{resultado:.2f}")
+elif (salario) <= 4500.00 :
+    resultado = ((3000.00 / 100) * 18) + ((2000.00 / 100) * 8)
+    print(f"tem que ser pago:{resultado:.2f}")
+else :
+    resultado = ((4500.00 / 100) * 28) + ((3000.00 / 100) * 18) + ((2000.00 / 100) * 8)
+    print (f"tem que ser pago:{resultado:.2f}")
